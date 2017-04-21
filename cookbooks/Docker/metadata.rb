@@ -1,0 +1,6 @@
+name 'Docker'
+description 'An docker cookbook'
+maintainer 'Krishna Chaitanaya'
+maintainer_email 'chaitu.papa@gmail.com'
+license 'Docker'
+version '1.0.0'
