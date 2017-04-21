@@ -1,5 +1,5 @@
 bash "docker-cleanup" do
-   user "ec2-user"
+   user "root"
    code <<-EOH
       if docker ps -f "name=helloworld" -q -a ;     
 	then
@@ -22,7 +22,6 @@ source "tomcat-users.xml"
 mode "0644"
 end
 execute 'build' do
-  user "ec2-user"
+  user "root"
   command 'docker build -t "helloworld:tomcat" /tmp'
- # action:create
 end

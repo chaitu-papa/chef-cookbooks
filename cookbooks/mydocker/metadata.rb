@@ -1,4 +1,4 @@
-name 'Docker'
+name 'mydocker'
 description 'An docker cookbook'
 maintainer 'Krishna Chaitanaya'
 maintainer_email 'chaitu.papa@gmail.com'
